@@ -1,31 +1,20 @@
 console.log(`** Step 1 **`);
-function squareOfWordLength1(word1){
-   console.log(`The word1 is:${word1}`);
-   console.log(`Length of word1 is: ${word1.length}`);
-   var square1=word1.length**2;
-   console.log(`The square of word1 length is:${square1}`);
-
+function squareOfWordLength(word){
+  
+   console.log(`Length of ${word} is: ${word.length}`);
+   var square=word.length**2;
+   return square;
 }
-squareOfWordLength1(`JavaScript`);
+var square=squareOfWordLength("JavaScript");
+console.log(`The square of "JavaScript" length is:${square}`);
 console.log(`----------------------------`);
 
-function squareOfWordLength2(word2){
-    console.log(`The word2 is:${word2}`)
-    console.log(`Length of word2 is: ${word2.length}`); 
-    var square2=word2.length**2;
-    console.log(`The square of word2 length is:${square2}`);
- }
- squareOfWordLength2(`Google Chrome`);
- console.log(`----------------------------`);
+var square=squareOfWordLength("Google Chrome");
+console.log(`The square of "Google Chrome" length is:${square}`);
+console.log(`----------------------------`);
 
- function squareOfWordLength3(word3){
-    console.log(`The word3 is:${word3}`)
-    console.log(`Length of word3 is: ${word3.length}`);
-    var square3=word3.length**2;
-    console.log(`The square of word1 length is:${square3}`);
- }
- squareOfWordLength3(`Developer Smart`);
- console.log(`----------------------------`);
+var square=squareOfWordLength("Developer Smart");
+console.log(`The square of "Developer Smart" length is:${square}`);
 
 console.log(`** Step 2 **`);
 function String(){
